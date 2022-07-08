@@ -1,0 +1,613 @@
+@media (min-width: 1300px){
+    .quinta .quinta-content .box-02{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width: 1300px){
+    .quarta .quarta-caixa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -140px;
+    }
+    .quinta .quinta-content .box-02{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sexta .sexta-content .primeira-content .div-01,
+    .sexta .sexta-content .primeira-content .div-02,
+    .sexta .sexta-content .primeira-content .div-03,
+    .sexta .sexta-content .segunda-content .div-01,
+    .sexta .sexta-content .segunda-content .div-02,
+    .sexta .sexta-content .segunda-content .div-03{
+        display: flex;
+        font-size: 12px;
+        margin-top: 20px;
+        gap: 5px;
+    }
+    .redes{
+        text-align: center;
+    }
+    .redes .image{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .redes img{
+        width: 25px;
+    }
+}
+@media (max-width: 1200px){
+    .quarta .quarta-caixa .box .text-01{
+        font-size: 18px;
+    }
+    .quarta .quarta-caixa .box a{
+        font-size: 15px;
+    }
+    .quinta .quinta-content .box-02 img{
+        margin-bottom: 20px;
+    }
+    .quinta .quinta-content .box-02{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 1100px){
+    /* Second */
+    .segunda{
+        background: rgb(42, 41, 39);
+        width: 100%;
+        height: 140vh;
+        opacity: 0.95;
+        transition: ease-in-out 1s;
+    }
+    .segunda .segunda-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .segunda .segunda-content .left{
+        width: calc(100% - 300px);
+        text-align: right;
+        padding: 0;
+        margin: 0;
+    }
+    .segunda .segunda-content .left h2{
+        margin-top: -80px;
+    }
+    .segunda .segunda-content .right{
+        width: calc(80% - 100px);
+        margin-top: 0px;
+    }
+    .segunda .segunda-content .first-galery{
+        display: flex;
+        width: 100%;
+        height: 250px;
+        gap: 1rem;
+    }
+    .segunda .segunda-content .second-galery{
+        display: flex;
+        height: 250px;
+        gap: 1rem;
+    }
+    .quarta{
+        height: 75vh;
+    }
+    .quarta .quarta-caixa .box .text-01{
+        font-size: 15px;
+    }
+    .quarta .quarta-caixa .box a{
+        background-color: #000;
+        width: 45%;
+        height: 40px;
+        padding: 0;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .quarta .quarta-bloco-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 20px;
+    }
+    .quarta .quarta-bloco-content .left{
+        width: calc(100% - 300px);
+        text-align: right;
+        padding: 0;
+        margin: 0;
+    }
+    .quinta{
+        color: #000;
+        padding-top: 100px;
+    }
+    .quinta .quinta-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0;
+        margin-top: -70px;
+    }
+    .quinta .quinta-content .box-01,
+    .quinta .quinta-content .box-02,
+    .quinta .quinta-content .box-03{
+        background-color: white;
+        border: 2px solid #ebe6e6;
+        width: calc(100% - 200px);
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+    .quinta .quinta-content .box-03{
+        background-color: rgb(42, 41, 39);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .quinta .quinta-content .box-01 img,
+    .quinta .quinta-content .box-02 img,
+    .quinta .quinta-content .box-03 img{
+        width: 80px;
+        margin-bottom: 5px;
+    }
+    .quinta .quinta-content .box-01 .text-01,
+    .quinta .quinta-content .box-02 .text-01,
+    .quinta .quinta-content .box-03 .text-01{
+        color: #000;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .quinta .quinta-content .box-03 .text-01{
+        color: white;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .quinta .quinta-content .box-01 .text-02,
+    .quinta .quinta-content .box-01 .text-03,
+    .quinta .quinta-content .box-02 .text-02{
+        color: #000;
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .sexta-content img{
+        width: 10px;
+        margin-bottom: 5px;
+    }
+    .sexta .sexta-content .primeira-content,
+    .sexta .sexta-content .segunda-content{
+        width: calc(50% - 200px);
+    }
+    .sexta .sexta-content .primeira-content .div-01,
+    .sexta .sexta-content .primeira-content .div-02,
+    .sexta .sexta-content .primeira-content .div-03,
+    .sexta .sexta-content .segunda-content .div-01,
+    .sexta .sexta-content .segunda-content .div-02,
+    .sexta .sexta-content .segunda-content .div-03{
+        display: flex;
+        width: calc(100% - 60px);
+        font-size: 13px;
+        margin-top: 20px;
+        gap: 5px;
+    }
+    .redes{
+        text-align: center;
+    }
+    .redes .image{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .redes img{
+        width: 25px;
+    }
+}
+@media(max-width: 950px){
+    .navbar .max-width{
+        max-width: 800px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        left: 100%;
+        top: 0;
+        background: rgb(42, 41, 39);
+        padding-top: 50px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0%;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .segunda{
+        height: 150vh;
+    }
+    .segunda .segunda-content .left{
+        width: calc(100% - 100px);
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+    }
+    .segunda .segunda-content .left p{
+        font-size: 15px;
+    }
+    .quarta .quarta-bloco-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 20px;
+    }
+    .quarta .quarta-bloco-content .left{
+        width: calc(90% - 100px);
+        text-align: right;
+        padding: 0;
+        margin: 0;
+    }
+    .quarta .quarta-bloco-content .right .box{
+        background-color: rgb(42, 41, 39);
+        box-shadow: 0px 0px 5px rgb(42, 41, 39);
+        padding: 30px;
+        border-radius: 10px;
+        gap: 1rem;
+    }
+    .quinta .quinta-content .box-01,
+    .quinta .quinta-content .box-02,
+    .quinta .quinta-content .box-03{
+        border: 2px solid #ebe6e6;
+        width: calc(100% - 140px);
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+    .sexta .sexta-content .primeira-content,
+    .sexta .sexta-content .segunda-content{
+        width: calc(50% - 100px);
+    }
+    .sexta .sexta-content .primeira-content .div-01,
+    .sexta .sexta-content .primeira-content .div-02,
+    .sexta .sexta-content .primeira-content .div-03,
+    .sexta .sexta-content .segunda-content .div-01,
+    .sexta .sexta-content .segunda-content .div-02,
+    .sexta .sexta-content .segunda-content .div-03,
+    .sexta .sexta-content .segunda-content .div-04{
+        display: flex;
+        width: calc(100% - 100px);
+        font-size: 13px;
+        margin-top: 20px;
+        gap: 0;
+    }
+    .redes{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .redes .image{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .redes .text-01{
+        font-size: 10px;
+    }
+    .redes img{
+        width: 23px;
+    }
+}
+@media (max-width: 800px){
+    .segunda{
+        height: 160vh;
+    }
+}
+@media (max-width: 700px){
+    .home .max-width{
+        display: flex;
+        text-align: right;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-top: 5rem;
+
+    }
+    .home .home-content .text-1{
+        font-size: 20px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .home .home-content .text-3{
+        font-size: 40px;
+    }
+    .segunda{
+        height: 160vh;
+    }
+    .segunda .segunda-content .right{
+        width: calc(100% - 100px);
+        margin-top: 0px;
+        gap: 1rem;
+    }
+    .terceira .terceira-content{
+        text-align: left;
+        justify-content: center;
+        margin-left: 20px;
+        line-height: 50px;
+    }
+    .terceira .terceira-content .text-01{
+        font-size: 20px;
+        filter: brightness(70%);
+        font-weight: 100;
+    }
+    .terceira .terceira-content .text-02{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .quinta{
+        height: 150vh;
+    }
+    .quinta .quinta-content .box-01,
+    .quinta .quinta-content .box-02,
+    .quinta .quinta-content .box-03{
+        border: 2px solid #ebe6e6;
+        width: calc(100% - 50px);
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+    .sexta .sexta-content .primeira-content,
+    .sexta .sexta-content .segunda-content{
+        width: calc(150% - 50px);
+        padding: 0;
+    }
+    .sexta .sexta-content .primeira-content .div-01,
+    .sexta .sexta-content .primeira-content .div-02,
+    .sexta .sexta-content .primeira-content .div-03,
+    .sexta .sexta-content .segunda-content .div-01,
+    .sexta .sexta-content .segunda-content .div-02,
+    .sexta .sexta-content .segunda-content .div-03,
+    .sexta .sexta-content .segunda-content .div-04{
+        display: flexbox;
+        width: calc(150% - 50px);
+        font-size: 10px;
+        margin-top: 20px;
+        gap: 0px;
+    }
+    .sexta-content img{
+        width: 2px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .redes{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .redes .image{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .redes .text-01{
+        font-size: 10px;
+    }
+    .redes img{
+        width: 23px;
+    }
+}
+@media (max-width: 600px){
+    .segunda{
+        height: 170vh;
+    }
+    .segunda .segunda-content .right{
+        width: calc(100% - 100px);
+        margin-top: 0px;
+        gap: 1rem;
+    }
+    .quarta .quarta-caixa .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .quarta .quarta-caixa .box a{
+        background-color: #000;
+        width: 60%;
+        height: 40px;
+        padding: 0;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .quarta .quarta-bloco-content .right .box{
+        background-color: rgb(42, 41, 39);
+        box-shadow: 0px 0px 5px rgb(42, 41, 39);
+        padding: 15px;
+        border-radius: 10px;
+        gap: 1rem;
+    }
+    .quinta{
+        height: 160vh;
+    }
+    .sexta .sexta-content .primeira-content,
+    .sexta .sexta-content .segunda-content{
+        width: calc(150% - 50px);
+        padding: 0;
+    }
+    .sexta-content img{
+        width: 2px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .redes{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .redes .text-01{
+        font-size: 10px;
+    }
+    .redes img{
+        width: 23px;
+    }
+}
+@media (max-width: 500px){
+    .navbar .max-width{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .menu-btn{
+        margin-left: 200px;
+    }
+    .segunda{
+        height: 255vh;
+    }
+    .segunda .segunda-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        padding: auto;
+        margin: auto;
+    }
+    .segunda .segunda-content .left{
+        width: calc(100% - 30px);
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+    }
+    .segunda .segunda-content .left p{
+        font-size: 15px;
+    }
+    .segunda .segunda-content .right{
+        width: calc(100% - 100px);
+        margin-top: 0px;
+        gap: 1rem;
+    }
+    .quarta .quarta-caixa .box a{
+        background-color: #000;
+        width: 80%;
+        height: 40px;
+        padding: 0;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .quinta{
+        height: 185vh;
+    }
+    .sexta{
+        height: 40vh;
+    }
+    .sexta .max-width{
+        max-width: 500px;
+        padding: 0 0px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sexta .sexta-content .primeira-content,
+    .sexta .sexta-content .segunda-content{
+        width: calc(50% - 0px);
+        padding: 0;
+    }
+    .sexta .sexta-content .primeira-content .div-01,
+    .sexta .sexta-content .primeira-content .div-02,
+    .sexta .sexta-content .primeira-content .div-03,
+    .sexta .sexta-content .segunda-content .div-01,
+    .sexta .sexta-content .segunda-content .div-02,
+    .sexta .sexta-content .segunda-content .div-03,
+    .sexta .sexta-content .segunda-content .div-04{
+        display: flexbox;
+        width: calc(160% - 50px);
+        font-size: 10px;
+        margin-top: 20px;
+        gap: 0px;
+    }
+    .sexta-content img{
+        width: 2px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .redes{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .redes .image{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .redes .text-01{
+        font-size: 10px;
+    }
+    .redes img{
+        width: 23px;
+    }
+}
+@media (max-width: 400px){
+    .quinta{
+        height: 200vh;
+    }
+}
+@media (max-width: 395px){
+    .home{
+        height: 50vh;
+    }
+    .segunda{
+        height: 160vh;
+    }
+    .terceira{
+        height: 50vh;
+    }
+    .quarta{
+        height: 50vh;
+    }
+    .quinta{
+        padding: 100px 0;
+        padding-top: 100px;
+        height: 105vh;
+    }
+    .sexta{
+        height: 25vh;
+    }
+}
